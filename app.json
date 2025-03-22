@@ -2,23 +2,23 @@
   "name": "n8n",
   "description": "deploy n8n to heroku without any hassle",
   "keywords": ["n8n", "node", "automation"],
-  "website": "https://n8n.io",
-  "repository": "https://github.com/n8n-io/n8n-heroku",
-  "logo": "https://raw.githubusercontent.com/n8n-io/n8n-heroku/main/n8n_logo.png",
+  "website": "https://www.infomediaservice.com/",
+  "repository": "https://github.com/mpoveda98/n8n-heroku.git",
+  "logo": "https://abacox.infomediaservice.com/abacox3_personalizado_beta/infomedia/recursos/logos/login.jpg",
   "success_url": "/",
   "stack": "container",
   "env": {
     "GENERIC_TIMEZONE": {
       "description": "Time Zone to use with Heroku. You can find the name of your timezone for example here: https://momentjs.com/timezone/.",
-      "value": "Europe/Berlin"
+      "value": "America/Bogota"
     },
     "N8N_ENCRYPTION_KEY": {
       "description": "Set the n8n encryption key to a static value to avoid Heroku overriding it (causing authentication to fail).",
-      "value": "change-me-to-something-else"
+      "value": "Infomedia202503@"
     },
     "WEBHOOK_URL": {
       "description": "Replace <appname> with your Heroku application name. This will ensure the correct webhook URLs are being shown in n8n.",
-      "value": "https://<appname>.herokuapp.com"
+      "value": "https://inf8n.herokuapp.com"
     },
     "DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED": {
       "description": "SSL is required to connect to Postgres on Heroku",
